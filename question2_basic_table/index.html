@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+  </head>
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+  </style>
+  <body>
+    <table>
+      <tr>
+        <th>Header Column 1</th>
+        <th>Header Column 2</th>
+        <th>Header Column 3</th>
+        <th>Header Column 4</th>
+      </tr>
+      <tr>
+        <td>Row 2 - Item 1</td>
+        <td>Row 2 - Item 2</td>
+        <td rowspan="2">
+          <b>Row 2 - Nested Table 1</b>
+          <br />
+          <br />
+          <table>
+            <tr>
+              <th>Row 1 Header</th>
+              <td>Item</td>
+            </tr>
+            <tr>
+              <th>Row 2 Header</th>
+              <td>Item</td>
+            </tr>
+            <tr>
+              <th>Row 3 Header</th>
+              <td>Item</td>
+            </tr>
+          </table>
+        </td>
+        <td>Row 2 - Item 4 <br />A Second Line</td>
+      </tr>
+      <tr>
+        <td>
+          <b>Row 3: Nested Table 2</b>
+          <br />
+          <br />
+          <table>
+            <tr>
+              <th>Row 1 Header</th>
+              <td>Item</td>
+            </tr>
+            <tr>
+              <th>Row 2 Header</th>
+              <td>Item</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <ul>
+            <li>VB.Net</li>
+            <li>CSharp</li>
+            <li>Asp.Net</li>
+          </ul>
+        </td>
+        <td rowspan="2">
+          <img width="115px" height="" alt="" src="./cssImage.jpg" />
+        </td>
+      </tr>
+      <tr>
+        <td>Row 4 - Item 1</td>
+        <td>Row 4 - Item 2</td>
+        <td>Row 4 - Item 3</td>
+      </tr>
+      <tr>
+        <td colspan="4">Row 5 - Last Row of Outer Table</td>
+      </tr>
+    </table>
+    <script src="" async defer></script>
+  </body>
+</html>
