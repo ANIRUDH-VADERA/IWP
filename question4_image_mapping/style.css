@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+img{
+    width: 100vw;
+    height: 100vh;
+}
