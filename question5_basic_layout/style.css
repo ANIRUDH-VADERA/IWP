@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+.Header{
+    height: 15vh;
+    width: 100vw;
+    background-color: #333333;
+    padding: 0 10px;
+}
+
+.Header h1{
+    color: #ffcc00;
+    margin: 0;
+    font-size: 5rem;
+}
+
+.Navbar{
+    height: 10vh;
+    width: 100vw;
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar{
+    height: 10vh;
+    width: 36vw;
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarItem:nth-child(4){
+    border:none !important;
+}
+
+.navbarItem{
+    width: 9vw;
+    height: 3.75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid black ;
+}
+
+.navbarItem h2{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.Main{
+    background-color: #333333;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100vw;
+    height:67.5vh;
+}
+
+.Main h1{
+    color : white;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 40px;
+}
+
+.left{
+    padding: 10px;
+    padding-right: 50px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+.left p{
+    margin-top:20px;
+    color: white;
+    font-weight: 0;
+    font-size:16px;
+    letter-spacing: 0.8px;
+    line-height: 1.75;
+}
+
+.right{
+    width: 16vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #666666;
+    height: 50vh;
+    padding: 0 30px;
+    color: white;
+}
+
+.right h2{
+    margin:0;
+}
+
+.right li{
+    color: #ffcc00;
+}
+
+.Footer{
+    padding-left: 10px;
+    height: 7.5vh;
+    width: 100vw;
+    background-color: #ffcc00;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #ffcc00;
+}
