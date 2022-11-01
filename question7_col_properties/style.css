@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    width: 80vw;
+}
+
+h1{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.header{
+    background-color: #ffabb1;
+    width: 80vw;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h1{
+    color: white;
+    font-size: 6rem;
+}
+
+.headerTwo{
+    height: 7vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 0.5vh solid #585858;
+}
+
+.headerTwo p{
+    width: 80vw;
+    color : #6e6e6e;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh;
+    background-color: #797979;
+    height: 12vh;
+    width: 80vw;
+    border: 0.5vh solid #585858;
+}
+
+.headerThree h1{
+    color: white;
+    font-size: 5rem;
+}
+
+.main{
+    width: 70vw;
+    height: 75vh;
+    column-count: 2;
+    column-gap: 150px;
+    column-rule: 4px solid #777777;
+    color : #6e6e6e;
+    padding: 50px;
+}
+
+.main h2{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.imageDiv{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 20px;
+    column-count: 2;
+    background-color: #ffdee1;
+    height: 35vh;
+    width: 25vw;
+}
+
+.paraDiv{
+    height: 40vh;
+    width: 30vw;
+}
+
+img{
+    height: 35vh;
+    width: 200px;
+    border-radius: 67% 0 0 0 ;
+}
+
+.lastDiv{
+    width: 25vw;
+}
