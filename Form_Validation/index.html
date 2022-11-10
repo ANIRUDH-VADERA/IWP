@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1 class="heading">HTML Form</h1>
+    <form>
+      <fieldset>
+        <legend>General Details</legend>
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name" required />
+        <br />
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" required />
+        <br />
+        <label for="gender">Gender: </label>
+        <input
+          type="radio"
+          class="gender"
+          name="gender"
+          id="male"
+          value="Male"
+        />
+        <label for="male">Male</label>
+        <input
+          type="radio"
+          class="gender"
+          name="gender"
+          id="female"
+          value="Female"
+        />
+        <label for="female">Female</label>
+        <br />
+        <label for="hear">How did you hear about us: </label>
+        <select id="hear">
+          <option value="Search Engine" id="searchEngine" name="hear">
+            Search Engine
+          </option>
+          <option value="College" class="hear" id="college" name="hear">
+            College
+          </option>
+          <option value="Friends" class="hear" id="friends" name="hear">
+            Friends
+          </option>
+          <option value="Social Media" class="hear" id="social" name="hear">
+            Social Media
+          </option>
+        </select>
+        <br />
+        <label for="comment">Comments: </label>
+        <br />
+        <textarea id="comment" type="text" name="comment"></textarea>
+      </fieldset>
+      <fieldset>
+        <legend>User Account Details</legend>
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username" required />
+        <br />
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" required />
+        <br />
+        <label for="subs">Newsletter Subscription: </label>
+        <input
+          type="checkbox"
+          class="Subscription"
+          id="article"
+          name="subs"
+          value="PHP Article"
+        />
+        <label for="article">PHP Article</label>
+        <input
+          type="checkbox"
+          id="news"
+          class="Subscription"
+          name="subs"
+          value="PHP News"
+        />
+        <label for="news">PHP News</label>
+      </fieldset>
+      <input type="submit" class="btn" value="Submit" />
+      <input type="reset" value="Reset" />
+    </form>
+
+    <script src="./index.js" async defer></script>
+  </body>
+</html>
