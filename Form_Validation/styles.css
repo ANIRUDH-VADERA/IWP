@@ -1,0 +1,17 @@
+body{
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    align-items: center;
+}
+
+form{
+    margin-top: 5vh;
+    width: 30vw;
+}
+
+select{
+    width: 9vw;
+}
